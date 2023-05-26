@@ -68,6 +68,7 @@ class BlurActivity : AppCompatActivity() {
                     viewModel.setOutputUri(outputImageUri)
                     binding.seeFileButton.visibility = View.VISIBLE
                 }
+
             }else showWorkInProgress()
         }
     }
